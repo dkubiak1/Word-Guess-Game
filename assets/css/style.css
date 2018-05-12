@@ -1,0 +1,42 @@
+
+#wrapper {
+    width: 1500px;
+    margin: auto;
+    height: 200px;
+}
+
+.container {
+    width: 90px;
+    position: relative;
+    margin: 2px;
+    float: left;
+    background: white;
+    display: block;
+    padding: 5px;
+    height: 100px;
+}
+div[id*="let"] {
+    position: absolute;
+    float: left;
+    width: 50px;
+    margin: 20px;
+    color: blue;
+    background: white;
+    font-size: 36px;
+    font-weight: 3;
+    display: none;
+    text-align: center;
+}
+
+body {
+    background: lightblue;
+}
+
+.score {
+    color: orangered;
+
+    height: 100px;
+    width: 200px;
+    margin: auto;
+    background: white;
+}
